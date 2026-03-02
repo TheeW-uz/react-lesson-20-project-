@@ -1,0 +1,145 @@
+.logo-container {
+    width: 253px;
+    height: 65px;
+    border-bottom: 1px solid #E6EAED;
+    border-right: 1px solid #E6EAED;
+}
+
+.main-logo {
+    width: 114px;
+    height: 36px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.main-container1 {
+    margin-top: 40px;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+
+    .main-title1 {
+        font-size: 12px;
+        font-weight: 600;
+        color: #092C4C;
+        margin-left: 24px;
+    }
+
+    .dashboard-box {
+        margin-top: 16px;
+        display: flex;
+        gap: 8px;
+
+        img {
+            width: 16px;
+            height: 16px;
+            margin-left: 36px;
+        }
+
+        .dashboard-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #212B36;
+        }
+    }
+
+    .admin-box {
+        margin-top: 12px;
+        margin-left: 36px;
+        display: flex;
+        gap: 8px;
+
+        img {
+            width: 16px;
+            height: 16px;
+        }
+
+        .admin-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #212B36;
+        }
+    }
+}
+
+.inventory-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    .inventory-title {
+        font-size: 12px;
+        font-weight: 700;
+        color: #092C4C;
+        margin-left: 24px;
+    }
+
+    .products-box,
+    .create-product-box,
+    .expired-products-box,
+    .low-stocks-box,
+    .category-box,
+    .sub-category-box,
+    .brands-box,
+    .units-box,
+    .variant-box,
+    .warranties-box,
+    .print-box,
+    .qrcode-box {
+        margin-top: 12px;
+        margin-left: 36px;
+        display: flex;
+        gap: 8px;
+
+        img {
+            width: 16px;
+            height: 16px;
+        }
+
+        .products-title,
+        .create-product-title,
+        .expired-products-title,
+        .low-stocks-title,
+        .category-title,
+        .sub-category-title,
+        .brands-title,
+        .units-title,
+        .variant-title,
+        .warranties-title,
+        .print-title,
+        .qrcode-title {
+            font-size: 14px;
+            font-weight: 500;
+            color: #212B36;
+        }
+    }
+}
+
+.stock-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .stock-main {
+        font-size: 12px;
+        font-weight: 700;
+        color: #092C4C;
+        margin-left: 24px;
+    }
+
+    .stock-box,
+    .adjusment-box,
+    .transfer-box {
+        margin-top: 12px;
+        margin-left: 36px;
+        display: flex;
+        gap: 8px;
+    }
+
+    img {
+        width: 16px;
+        height: 16px;
+    }
+}

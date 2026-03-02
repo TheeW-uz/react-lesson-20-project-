@@ -1,0 +1,252 @@
+.main-container {
+    width: 1440px;
+    height: 1075px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.login-text {
+    width: 730px;
+    height: 1075px;
+
+    .login-logo {
+        width: 128px;
+        height: 40px;
+        margin-left: 149px;
+        margin-top: 48px;
+    }
+
+    .sign-in-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #212B36;
+        margin-left: 149px;
+        margin-top: 218px;
+    }
+
+    .sign-in__desc {
+        font-size: 16px;
+        font-weight: 400;
+        color: #646B72;
+        margin-top: 4px;
+        margin-left: 149px;
+        width: 436px;
+    }
+
+    .login-form {
+        margin-top: 20px;
+        margin-left: 149px;
+
+        .email-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: #212B36;
+        }
+
+        .email {
+            display: flex;
+            margin-top: 4px;
+
+            .email-input {
+                width: 436px;
+                height: 38px;
+                border: 1px solid #E6EAED;
+                outline: none;
+                border-radius: 5px;
+                margin-top: 4px;
+                padding-left: 12px;
+            }
+
+            .email-icon {
+                font-size: 16px;
+                margin-top: 13px;
+                transform: translateX(-30px);
+            }
+        }
+
+        .password-text {
+            font-size: 14px;
+            font-weight: 500;
+            color: #212B36;
+            margin-top: 20px;
+        }
+
+        .password {
+            display: flex;
+            margin-top: 4px;
+
+            .password-input {
+                width: 436px;
+                height: 38px;
+                border: 1px solid #E6EAED;
+                outline: none;
+                border-radius: 5px;
+                margin-top: 4px;
+                padding-left: 12px;
+            }
+
+            .password-icon {
+                font-size: 16px;
+                margin-top: 13px;
+                transform: translateX(-30px);
+            }
+        }
+    }
+}
+
+.form-addon {
+    margin-top: 16px;
+    display: flex;
+
+    .checkbox-input {
+        width: 16px;
+        height: 16px;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+
+    .remember {
+        margin-left: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #646B72;
+        width: 120px;
+    }
+
+    .forgot {
+        font-size: 16px;
+        font-weight: 500;
+        color: #E04F16;
+        margin-left: 150px;
+        width: 150px;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+
+    .forgot:hover {
+        color: #a04b29;
+        font-size: 17px;
+    }
+}
+
+.sign-in-btn {
+    width: 436px;
+    height: 37px;
+    margin-left: 149px;
+    margin-top: 16px;
+    border-radius: 5px;
+    background-color: #FE9F43;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    color: #c7701a;
+    border: 1px solid #c7701a;
+    background-color: transparent;
+}
+
+.create-acc {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 149px;
+    gap: 4px;
+
+    .create-title {
+        font-size: 14px;
+        font-weight: 400;
+        color: #646B72;
+    }
+
+    .create {
+        font-size: 14px;
+        font-weight: 500;
+        color: #212B36;
+        text-decoration: none;
+    }
+}
+
+.or {
+    font-size: 14px;
+    font-weight: 500;
+    color: #646B72;
+    margin-top: 20px;
+    margin-left: 356px;
+}
+
+.socials-container {
+    margin-top: 20px;
+    margin-left: 149px;
+    display: flex;
+    gap: 8px;
+
+    .facebook {
+        width: 140px;
+        height: 54px;
+        background-color: #155EEF;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .facebook-icon {
+            font-size: 24px;
+            color: white;
+        }
+    }
+
+    .google {
+        width: 140px;
+        height: 54px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #E6EAED;
+
+        .google-icon {
+            font-size: 24px;
+            color: black;
+        }
+    }
+
+    .apple {
+        width: 140px;
+        height: 54px;
+        background-color: #1B2850;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .apple-icon {
+            font-size: 24px;
+            color: white;
+        }
+    }
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 220px;
+    margin-left: 261px;
+}
+
+.login-image {
+    width: 730px;
+    height: 1075px;
+    background-color: #FFDABA;
+
+    img {
+        width: 570px;
+        height: 665px;
+        margin-top: 205px;
+        margin-left: 80px;
+    }
+}

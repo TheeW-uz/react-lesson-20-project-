@@ -1,0 +1,139 @@
+.main-container {
+    display: flex;
+}
+
+
+.verification-main {
+    .main-logo {
+        width: 128px;
+        height: 40px;
+        margin-left: 136px;
+        margin-top: 48px;
+    }
+
+    .email-verificate-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #212B36;
+        margin-left: 136px;
+        margin-top: 316px;
+    }
+
+    .email-verificate__desc {
+        font-size: 16px;
+        font-weight: 400;
+        color: #646B72;
+        margin-top: 4px;
+        margin-left: 136px;
+        width: 466px;
+    }
+
+    .code-box {
+        display: flex;
+        gap: 24px;
+        margin-top: 20px;
+        margin-left: 136px;
+
+        .code-1,
+        .code-2,
+        .code-3,
+        .code-4 {
+            width: 97px;
+            height: 70px;
+            outline: none;
+            border: 2px solid #FE9F43;
+            background-color: transparent;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+            padding-left: 44px;
+        }
+    }
+}
+
+.timer {
+    display: flex;
+    width: 63px;
+    height: 23px;
+    margin-top: 16px;
+    margin-left: 335px;
+    border-radius: 5px;
+    background-color: #FFEDE9;
+
+    .timer-icon {
+        font-size: 12px;
+        margin-left: 6px;
+        margin-top: 5.5px;
+        color: #FF0000;
+    }
+
+    .timer-time {
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 6px;
+        margin-left: 4px;
+        color: #FF0000;
+    }
+}
+
+.resend-div {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 320px;
+
+    .resend-p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #646B72;
+    }
+
+    .resend {
+        font-size: 14px;
+        font-weight: 500;
+        color: #212B36;
+        margin-left: 4px;
+        text-decoration: none;
+    }
+}
+
+.verify-btn {
+    width: 460px;
+    height: 37px;
+    margin-top: 16px;
+    border-radius: 5px;
+    background-color: #FE9F43;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-left: 136px;
+}
+
+.verify-btn:hover {
+    color: #c7701a;
+    border: 1px solid #c7701a;
+    background-color: transparent;
+}
+
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 320px;
+    margin-left: 250px;
+}
+
+.verification-img {
+    margin-left: 110px;
+    width: 730px;
+    height: 1075px;
+    background-color: #FFDABA;
+
+    img {
+        margin-top: 358px;
+        margin-left: 96px;
+        width: 556px;
+        height: 359px;
+    }
+}
