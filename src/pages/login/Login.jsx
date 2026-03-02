@@ -13,7 +13,7 @@ import { SiApple } from "react-icons/si";
 const Login = () => {
   return (
     <div>
-      <div className="main-container">
+      <div className="main-container3">
         <div className="login-text">
           <img className='login-logo' src={logInImg} alt="logo" />
           <p className='sign-in-title'>Sign In</p>

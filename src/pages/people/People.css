@@ -1,0 +1,8 @@
+.people-container {
+    display: flex;
+}
+
+.people-main {
+    display: flex;
+    flex-direction: column;
+}

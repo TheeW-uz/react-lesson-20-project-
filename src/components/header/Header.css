@@ -1,0 +1,101 @@
+.header-container {
+    display: flex;
+}
+
+.search-bar {
+    input {
+        width: 229px;
+        height: 39px;
+        border-radius: 8px;
+        border: 1px solid #E6EAED;
+        background-color: white;
+        outline: none;
+        padding-left: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #A6AAAF;
+        margin-left: 24px;
+        margin-top: 13px;
+    }
+}
+
+nav {
+    margin-left: 316px;
+    margin-top: 15.5px;
+    display: flex;
+    gap: 12px;
+
+    .choose {
+        width: 122px;
+        height: 34px;
+        border-radius: 8px;
+        border: 1px solid #E6EAED;
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: 400;
+        color: #212B36;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .add-new {
+        width: 97px;
+        height: 34px;
+        border-radius: 8px;
+        border: none;
+        background-color: #FE9F43;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .pos {
+        width: 68px;
+        height: 34px;
+        border-radius: 8px;
+        border: none;
+        background-color: #092C4C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+    }
+}
+
+.header-addons {
+    display: flex;
+    margin-left: 24px;
+    margin-top: 15.5px;
+    gap: 12px;
+
+    .header-div-1,
+    .header-div-2,
+    .header-div-3,
+    .header-div-4,
+    .header-div-5,
+    .header-div-6 {
+        width: 34px;
+        height: 34px;
+        border-radius: 10px;
+        background-color: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-div-6 {
+        img {
+            width: 34px;
+            height: 34px;
+            cursor: pointer;
+        }
+    }
+}
