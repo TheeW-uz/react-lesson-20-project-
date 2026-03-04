@@ -21,7 +21,7 @@ import transfer from '../../../public/transfer-icon.png'
 
 const Sidebar = () => {
     return (
-        <div>
+        <div style={{borderRight: "1px solid #E6EAED" }}>
             <div className="logo-container">
                 <img className='main-logo' src={mainLogo} alt="logo" />
             </div>
